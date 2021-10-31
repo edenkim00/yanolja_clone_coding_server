@@ -1,3 +1,7 @@
+API 명세서 : 
+https://docs.google.com/spreadsheets/d/13NYHrtDHdz3y49v1p3d_dKjhPYo5H_J6Eeq8HXHEoZk/htmlview 
+
+
 1. 08/14 개발일지
 - RDS 데이터베이스 구축
 - EC2 인스턴스 구축

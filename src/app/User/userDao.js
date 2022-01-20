@@ -71,14 +71,6 @@ async function selectUserAccount(connection, email) {
   return selectUserAccountRow[0];
 }
 
-async function updateUserInfo(connection, id, nickname) {
-  const updateUserQuery = `
-  UPDATE User 
-  SET nickname = ?
-  WHERE id = ?;`;
-  const updateUserRow = await connection.query(updateUserQuery, [nickname, id]);
-  return updateUserRow[0];
-}
 async function updateUserPassword(connection, id, password) {
   const updateUserQuery = `
   UPDATE User 
@@ -95,14 +87,7 @@ async function updateUserPhoneNumber(connection, id, phoneNumber) {
   const updateUserRow = await connection.query(updateUserQuery, [phoneNumber,id]);
   return updateUserRow[0];
 }
-async function updateUserPhoneNumber(connection, id, phoneNumber) {
-  const updateUserQuery = `
-    UPDATE User
-    SET phoneNumber = ?
-    WHERE id = ?;`;
-  const updateUserRow = await connection.query(updateUserQuery, [phoneNumber,id]);
-  return updateUserRow[0];
-}
+
 async function deleteUser(connection, id) {
   const updateUserQuery = `
   UPDATE User 
@@ -130,9 +115,8 @@ module.exports = {
   insertUserInfo,
   selectUserPassword,
   selectUserAccount,
-  updateUserInfo,
   updateUserPhoneNumber,
   updateUserPassword,
   deleteUser,
   selectUserStatus
-};
+};ß

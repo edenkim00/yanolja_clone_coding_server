@@ -1,7 +1,7 @@
 // 모든 유저 조회
 async function selectUser(connection) {
   const selectUserListQuery = `
-                SELECT profileimageUrl, nickname, email, password, phoneNumber 
+                SELECT * 
                 FROM User;
                 `;
   const [userRows] = await connection.query(selectUserListQuery);
@@ -119,4 +119,4 @@ module.exports = {
   updateUserPassword,
   deleteUser,
   selectUserStatus
-};ß
+};

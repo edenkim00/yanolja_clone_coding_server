@@ -168,8 +168,7 @@ exports.deleteUsers = async function (req, res) {
         const editUserInfo = await userService.deleteUser(userId);
         return res.send(editUserInfo);
     }
-};ß
-
+};
 
 
 

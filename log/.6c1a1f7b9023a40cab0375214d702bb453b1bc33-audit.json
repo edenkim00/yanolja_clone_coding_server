@@ -6,69 +6,9 @@
     "auditLog": "log/.6c1a1f7b9023a40cab0375214d702bb453b1bc33-audit.json",
     "files": [
         {
-            "date": 1628940807272,
-            "name": "log/2021-08-14-smart-push.log",
-            "hash": "54e2dbf1f56207be57c44d292e85f704"
-        },
-        {
-            "date": 1629010733548,
-            "name": "log/2021-08-15-smart-push.log",
-            "hash": "843bc031683640f499168791bb9a3b1b"
-        },
-        {
-            "date": 1629086533136,
-            "name": "log/2021-08-16-smart-push.log",
-            "hash": "88001e7eead1d09d18873993de7c3288"
-        },
-        {
-            "date": 1629208435970,
-            "name": "log/2021-08-17-smart-push.log",
-            "hash": "b698cc91da9051be1144d0953368c8ec"
-        },
-        {
-            "date": 1629273578583,
-            "name": "log/2021-08-18-smart-push.log",
-            "hash": "048ccfcf2e14d5efb96d40c9fa677e95"
-        },
-        {
-            "date": 1629340839389,
-            "name": "log/2021-08-19-smart-push.log",
-            "hash": "de9b94e284c22d6562697fca67a6d611"
-        },
-        {
-            "date": 1629424312498,
-            "name": "log/2021-08-20-smart-push.log",
-            "hash": "1a0ec640a61d8473924d52e96930f7d5"
-        },
-        {
-            "date": 1629539795126,
-            "name": "log/2021-08-21-smart-push.log",
-            "hash": "e28f72c44134d6fd1ae4ce1b67cde006"
-        },
-        {
-            "date": 1629591838343,
-            "name": "log/2021-08-22-smart-push.log",
-            "hash": "fe22457a0c0fc08c48e0a5b9ac59abe7"
-        },
-        {
-            "date": 1629691146371,
-            "name": "log/2021-08-23-smart-push.log",
-            "hash": "c20b9f00e1ea77ad7340df7bcc232156"
-        },
-        {
-            "date": 1629795126895,
-            "name": "log/2021-08-24-smart-push.log",
-            "hash": "60293f4be6764c2649faed52d945789e"
-        },
-        {
-            "date": 1629877267679,
-            "name": "log/2021-08-25-smart-push.log",
-            "hash": "45f63bff73d3376ec1eb6f0d6e0a30de"
-        },
-        {
-            "date": 1629979136341,
-            "name": "log/2021-08-26-smart-push.log",
-            "hash": "c9a754775fe95b843a1eda302f1d59c5"
+            "date": 1642678714726,
+            "name": "log/2022-01-20-smart-push.log",
+            "hash": "72064610e8c9c8d2d18a463b970bafe6"
         }
     ]
 }
